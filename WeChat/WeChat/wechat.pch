@@ -1,0 +1,7 @@
+#ifdef __OBJC__
+
+#import <UIKit/UIKit.h>
+#import <Hyphenate/EMClient.h>
+#define ZSLog(...) NSLog(@"%s %d行\n %@\n\n",__func__,__LINE__,[NSString stringWithFormat:__VA_ARGS__])
+
+#endif
